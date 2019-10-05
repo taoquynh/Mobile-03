@@ -3,23 +3,40 @@
 ## Nội dung đã học
 - Chạy Swift bằng RELP: Repeat Evaluation Print Loop (xử lý trả về kết quả khi người dùng gõ code từng dòng lệnh, chạy trong môi trường Swift từ terminal)
 - Sử dụng một số câu lệnh linux căn bản: 
-    pwd: in vị trí thư mục đang làm việc
-    ls: liệt kê danh sách các file, thư mục con trong thư mục hiện tại
-    ls -la: liệt kê tất cả các file, thư mục con (kể cả file ẩn)
-    cd <tên_thư_mục>: cd vào thư mục con
-    cd .. : quay trở về thư mục trước
-    cd : trở về ~Home/
-    mkdir <tên_thư_mục>: tạo thư mục
-    touch <tên_file.đuôi_file>: tạo file
-    nano <tên_file.đuôi_file>: chỉnh sửa file (tạo mới nếu chưa có)
-    swift <tên_file.swift>: chạy file swift
+    - pwd: in vị trí thư mục đang làm việc
+    - ls: liệt kê danh sách các file, thư mục con trong thư mục hiện tại
+    - ls -la: liệt kê tất cả các file, thư mục con (kể cả file ẩn)
+    - cd <tên_thư_mục>: cd vào thư mục con
+    - cd .. : quay trở về thư mục trước
+    - cd : trở về ~Home/
+    - mkdir <tên_thư_mục>: tạo thư mục
+    - touch <tên_file.đuôi_file>: tạo file
+    - nano <tên_file.đuôi_file>: chỉnh sửa file (tạo mới nếu chưa có)
+    - swift <tên_file.swift>: chạy file swift
     
 - Học cú pháp Swift căn bản:
-    Khai báo biến, hằng số
-    Lệnh in ra màn hình, terminator
-    Nhập input từ bàn phím
-    Hàm
+    - Khai báo biến, hằng số
+    - Lệnh in ra màn hình, terminator
+    - Nhập input từ bàn phím
+    - Hàm
     
 - Git:
+    - Tạo tài khoản Git
+    - Clone repo về máy
+    - Đẩy thư mục lên Git
     
+## Bài tập đã làm
+    - In ra màn hình Hello World
+    - Nhập dữ liệu chuỗi, số từ bàn phím
+    - Tính tổng 2 số
+    - Đổi nhiệt độ từ độ C sang độ F và ngược lại
+    - Tính tiền điện 
+    
+# Bài tập về nhà
+    1. 1, Cho bán kính hình cầu, tính và in ra diện tích, thể tích của hình cầu đó.
+	Hướng dẫn: S = 4πR 2 và V = (4/3)πR 3
+
+    2, Tính tổng bình phương 2 số a, b (a, b nhập từ bàn phím).
+
+    3, 
     
