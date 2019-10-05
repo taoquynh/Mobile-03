@@ -51,7 +51,8 @@
     6*, Giải phương trình bậc nhất
     
 ## Lưu ý
-    Các bài có gắn dấu * có sử dụng kiến thức if ... else, cú pháp và ví dụ đã có trong slide SwiftBasic.pdf, mọi người đọc và làm
+    - Các bài có gắn dấu * có sử dụng kiến thức if ... else, 
+    - Cú pháp và ví dụ đã có trong slide SwiftBasic.pdf, mọi người đọc và làm
 
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
