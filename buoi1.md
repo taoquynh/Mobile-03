@@ -51,4 +51,11 @@
     6*, Giải phương trình bậc nhất
     
 ## Lưu ý
-    Các bài 
+    Các bài có gắn dấu * có sử dụng kiến thức if ... else, cú pháp và ví dụ đã có trong slide SwiftBasic.pdf, mọi người đọc và làm
+
+# Yêu cầu
+    - Bài tập đẩy lên Github, gửi link bài tập qua Mail
+    - Cú pháp gửi bài:
+        [BTVN-01] + Họ tên người gửi + lớp di động 3
+    - Gửi bài tập vào mail: quynh@techmaster.vn, cc mail cho thầy cuong@techmaster.vn
+    - Khuyến khích viết README.md mô tả repository của mình
