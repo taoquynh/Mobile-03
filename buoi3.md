@@ -1,19 +1,9 @@
-# Buổi 2
+# Buổi 3
 
 # Bài tập về nhà
-    5, Viết chương trình nhập vào 3 số nguyên a, b, c. Tìm, in ra số lớn nhất, số bé nhất.
-
-    6, Nhập 3 giá trị nguyên dương a, b, c. Kiểm tra xem a, b, c có phải là 3 cạnh của tam giác không?
-    - Nếu là 3 cạnh của tam giác thì tính diện tích của tam giác.
-    - Nếu không phải là tam giác in ra “a, b, c không phải là 3 cạnh của tam giác”
-
-    7, Nhập một năm công lịch bất kỳ , kiểm tra xem năm đó có phải năm nhuận hay không
-
-    8, Nhập vào thời điểm T gồm 3 số theo dạng : “Giờ : Phút : Giây” và 1 số nguyên X <= 10000
-    - Hỏi sau X giây kể từ thời điểm T thì thời gian là bao nhiêu ?
-    - Hãy in ra theo dạng “Giờ : Phút : Giây”
-
-    9, Tìm số n bé nhất sao cho n! lớn hơn một số m cho trước (m nhập từ bàn phím).
+    2. Cho một mảng số nguyên. Kiểm tra nếu trong mảng có phần tử âm thì thay thế nó bằng 0.
+    3. Tìm số nhỏ nhất và lớn nhất trong mảng số nguyên
+    4.Tìm số lớn thứ 2 trong mảng số nguyên
     
 ## Lưu ý
     Về nhà bổ sung bài tập buổi 2
@@ -21,22 +11,68 @@
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
     - Cú pháp gửi bài:
-        [BTVN-02] + Họ tên người gửi + lớp di động 3
+        [BTVN-03] + Họ tên người gửi + lớp di động 3
     - Gửi bài tập vào mail: quynh@techmaster.vn, cc mail cho thầy cuong@techmaster.vn
     - Khuyến khích viết README.md mô tả repository của mình
 
 ## Nội dung đã học
-- Chữa bài tập về nhà buổi 1
-- Ôn tập một số câu lệnh git: 
- - Đẩy code lên github
- - Lấy code từ github về
-    
-- Học cú pháp Swift căn bản:
-    - Câu điều kiện, if let, guard let
-    - Vòng lặp: for, repeat while, while
 
+### Mảng
+```
+// mảng
+
+// khai báo một mảng string
+
+var names: [String] = ["Hoa", "Nam", "Phong"] // đây là cách khai báo đầy đủ
+
+// duyệt mảng
+for i in names{
+    print(i)
+}
+
+print("---------")
+
+// duyệt mảng kèm index
+for (index, i) in names.enumerated() {
+    print("\(index) - \(i)")
+}
+
+print("---------")
+
+// một cách khác duyệt mảng lấy ra index
+for i in 0..<names.count{
+    print("\(i) - \(names[i])")
+}
+
+// in ra phần tử thứ bao nhiêu đó của mảng
+print(names[1]) // index phải nhỏ hơn số phần tử của mảng
+
+// thêm phần tử vào mảng
+names.append("Chung") // append truyền vào một phần tử
+
+names.append(contentsOf: ["An", "Hanh"]) // append truyền vào một mảng
+
+print("---------")
+print(names) // in mảng
+
+// thay thế giá trị phần tử trong mảng
+names[1] = "Long"
+print(names)
+
+// xoá phần tử trong mảng
+//- xoá phần tử theo index
+names.remove(at: 3)
+//- xoá tất cả các phần tử
+names.removeAll()
+//- xoá phần tử đầu tiên
+names.removeFirst()
+//- xoá phần tử cuối cùng
+names.removeLast()
+```
 ## Bài tập đã làm trên lớp
-    Nhập vào điểm trung bình của học sinh và in ra màn hình xếp loại tương ứng với mức điểm đó 
-    (xếp hạng: (>8: Giỏi,  [5, 8): Trung bình, <5: Khá]), nếu nhập ngoài khoảng [1, 10] thì yêu cầu nhập lại)
+    Khai báo một mảng có 5 phần tử là các chuỗi “An”,“Long”,"Trang”,”Nam”,”Lam”.
+    - Chèn tên mới “Quang" vào vị trí 2.		
+    - Xóa tên ở cuối mảng
+    - Khai báo biến t có giá trị là “Nhung”, kiểm tra xem biến t có trong mảng hay không ?
     
 
