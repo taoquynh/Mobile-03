@@ -16,6 +16,7 @@
     9, Tìm số n bé nhất sao cho n! lớn hơn một số m cho trước (m nhập từ bàn phím).
     
 ## Lưu ý
+    Về nhà bổ sung bài tập buổi 2
 
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
