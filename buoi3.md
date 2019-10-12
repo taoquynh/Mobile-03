@@ -176,5 +176,10 @@ func kiemTraMang(){
 }
 
 ```
-    
+## Làm quen với giao diện
+- Tạo Single View App
+- Giới thiệu qua về project: Name, BuildIdentifier, Target, Swift Version
+- Giới thiệu qua về Simulator: Build ứng dụng vào simulator, xoay màn hình trái, phải (cmd <- ->), home, lock, erase, show device bezels
+- Giới thiệu Storyboard, View, SafeArea UITextField, UILabel, UIButton, UIImageView
+- Thêm ảnh vào Assets
 
