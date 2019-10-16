@@ -89,7 +89,7 @@ names.removeFirst()
 //- xoá phần tử cuối cùng
 names.removeLast()
 ```
-## Dictionary
+### Dictionary
 ```
 // dictionary
 // tạo dictionary rỗng
