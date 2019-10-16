@@ -37,9 +37,40 @@
     - Câu điều kiện, if let, guard let
     - Vòng lặp: for, repeat while, while
 
-## Câu điều kiện
+### Câu điều kiện
 
-## Vòng lặp
+### Vòng lặp
+```
+import Foundation
+
+func forLoop(){
+    for i in 0..<10{
+        print(i)
+    }
+    
+    for i in 10..<20{
+        print(i, terminator: " ") // terminator huỷ bỏ chế độ tự động xuống dòng
+    }
+}
+
+func whileLoop(){
+    var i = 10
+    
+    while i > 0 {
+        i = i - 1
+        print(i)
+    }
+}
+
+func repeatWhileLoop(){
+    var i = 10
+    repeat {
+        i = i - 1
+        print(i)
+    } while i > 0
+}
+
+```
 
 ## Bài tập đã làm trên lớp
     Nhập vào điểm trung bình của học sinh và in ra màn hình xếp loại tương ứng với mức điểm đó 
