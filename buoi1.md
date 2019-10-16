@@ -101,3 +101,26 @@ func tinhBinhPhuong(a: Double) -> Double{
 }
 
 ```
+
+## Mã nguồn
+```
+import Foundation
+
+// khai báo biến
+var name: String = "Anh" // var là từ khoá khai báo biến
+
+// khai báo hằng số
+let pi = 3.14 // let là từ khoá khai báo hằng số
+
+print("name: \(name)") // print() là lệnh in ra màn hình console
+
+print("số pi: \(pi)", terminator: " ") // terminator để loại bỏ dấu ngắt dòng
+print("là số trong toán học")
+
+// nhập một chuỗi từ bàn phím
+let ten: String = readLine()!
+
+// nhập một số nguyên từ bàn phím
+let age: Int = Int(readLine()!)!
+
+```
