@@ -16,15 +16,13 @@
     * * * * *
 
     8, Viết chương trình vẽ một chữ X bằng các dấu * với chiều cao nhập từ bàn phím (chiều cao lớn hơn 0 và là số lẻ)
-
-    *       *
-     *     *
-      *   *
-        *
-      *   *
-     *     *
-    *       *
-
+```
+    *   *
+     * * 
+      *  
+     * * 
+    *   *
+```
 ## Lưu ý
     Ai chưa hoàn thành bài tập buổi 2 thì làm bổ sung và nộp lại
 
