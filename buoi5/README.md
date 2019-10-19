@@ -73,6 +73,15 @@ numberLabel.text = "1" // cập nhật text cho UILabel
 ## Làm bài tập giao diện
 
 ### Bài tập EarthHour: Bật tắt đèn
+<table>
+<td>
+  <img src = "../img/bulbOn.png" width="300">
+</td>
+<td>
+  <img src = "../img/bulbOff.png" width="300">
+</td>
+</tr>
+</table>
 
 ### Bài tập IAmRich
 
