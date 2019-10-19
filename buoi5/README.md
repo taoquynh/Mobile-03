@@ -84,5 +84,5 @@ numberLabel.text = "1" // cập nhật text cho UILabel
 </table>
 
 ### Bài tập IAmRich
-
+<img src = "../img/rich.png" width="300">
 
