@@ -1,5 +1,5 @@
 
-# Buổi 3
+# Buổi 4
 
 # Bài tập về nhà
 1, Sắp xếp mảng số nguyên theo chiều tăng dần và giảm dần
