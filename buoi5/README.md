@@ -235,9 +235,9 @@ func isSoHoanHao(_ n: Int) -> Bool {
 
 
 ```
-## Làm bài tập giao diện
+## Bài tập đã làm trên lớp
 
-### Bài tập EarthHour: Bật tắt đèn
+### Bài tập Bật tắt đèn
 <table>
 <td>
   <img src = "../img/bulbOn.png" width="300">
