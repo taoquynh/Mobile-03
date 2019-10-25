@@ -5,10 +5,12 @@
 2. Kiểm tra tính đối xứng của một số
 3. Giải phương trình bậc 2: ax2 + bx + c = 0
 4. Viết chương trình tính tiền cước TAXI. Biết rằng:
+```
     – Km đầu tiên là 5000đ
     – 30Km tiếp theo là 4000đ
     – Nếu lớn hơn 30Km thì mỗi Km thêm ra sẽ phải trả là 3000đ
     – Hãy nhập số Km sau đó in ra số tiền phải trả.
+```
 5. Làm bài 4 lên giao diện
 6. Tạo một UIView và một UIButton, nhấn vào button thì sẽ đổi màu background của UIView. Random màu trong mảng có ít nhất 5 màu. 
     
