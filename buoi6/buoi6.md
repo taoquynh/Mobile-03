@@ -86,25 +86,6 @@ func tamGiacVuong(){
     }
 }
 
-func veTamGiacCan() {
-    print("Nhập chiều cao tam giác, chiều cao > 1: ")
-    let h = Int(readLine()!)!
-    
-    for i in 0..<h {
-        for j in 0..<2*h{
-            if j >= (h-1-i) && j <= (h-1+i){
-                print("*",terminator:"")
-                
-            } else {
-                print(" ",terminator:"")
-                
-            }
-        }
-        print()
-    }
-    
-}
-
 func tamGiacNguoc(){
     print("Nhập chiều cao tam giác (>1): ")
     let h = Int(readLine()!)!
@@ -120,27 +101,6 @@ func tamGiacNguoc(){
         }
         print()
     }
-}
-
-//Hai anh em nhà cừu không có gì chơi, thằng anh mới đố thằng em: “Tao cho mày 1 số, nếu nó chẵn thì chia đôi, nó lẻ thì nhân 3 cộng 1. Đố mày biết sau bao nhiêu phép tính thì nó ra 1 ???”. Ông em ngẩn tò te không biết trả lời như nào. Bạn hãy giúp chú bé 1 tay với. In ra đáp án hoặc “-1” nếu ko có số nào hợp lệ.
-
-func collatz() {
-    print("Nhap so nguyen:")
-    var x = Int(readLine()!)!
-    if x < 0 {
-        print("-1")
-        return
-    }
-    var times = 0
-    while x != 1 {
-        if x % 2 == 0 {
-            x /= 2
-        } else {
-            x = 3 * x + 1
-        }
-        times += 1
-    }
-    print(times)
 }
 
 func demPhepTinh(){
