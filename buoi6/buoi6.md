@@ -1,15 +1,24 @@
 # Buổi 6
 
 # Bài tập về nhà
-
+1. Tính tổng các chữ số trong 1 số
+2. Kiểm tra tính đối xứng của một số
+3. Giải phương trình bậc 2: ax2 + bx + c = 0
+4. Viết chương trình tính tiền cước TAXI. Biết rằng:
+– Km đầu tiên là 5000đ
+– 30Km tiếp theo là 4000đ
+– Nếu lớn hơn 30Km thì mỗi Km thêm ra sẽ phải trả là 3000đ
+– Hãy nhập số Km sau đó in ra số tiền phải trả.
+5. Làm bài 4 lên giao diện
+6. Tạo một UIView và một UIButton, nhấn vào button thì sẽ đổi màu background của UIView. Random màu trong mảng có ít nhất 5 màu. 
     
 ## Lưu ý
-    
+    - Bài 5 cần một UITextField nhập số km, một UILabel hiển thị kết quả, một UIButton
 
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
     - Cú pháp gửi bài:
-        [BTVN-04] + Họ tên người gửi + lớp di động 3
+        [BTVN-06] + Họ tên người gửi + lớp di động 3
     - Gửi bài tập vào mail: quynh@techmaster.vn, cc mail cho thầy cuong@techmaster.vn
     - Khuyến khích viết README.md mô tả repository của mình
 
@@ -179,6 +188,11 @@ func random(){
 ```
 ## Làm việc với giao diện
 
-
-
+- Chữa bài tập về nhà buổi 5
+- Học frame, bounds của một UIView
+- Thêm một đối tượng chạy mới ViewController trong Storyboard
+- Tạo mới file Cocoa Touch Class với Subclass là UIViewController
+- Kiểm tra quiz
+- Học bo tròn một UIView
+- Học thuộc tính contenMode của UIImageView
 
