@@ -4,6 +4,7 @@
 1. Sắp xếp mảng giảm dần sử dụng hàm sort()
 2. In hình (nhập vào chiều cao của hình, với hình 2 thì chiều cao phải lẻ):
 ```
+Hình 1:
 *
 **
 ***
@@ -14,6 +15,8 @@
 ***
 **
 *
+
+Hình 2:
 
     *
    ***
