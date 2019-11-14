@@ -1,5 +1,5 @@
 
-# Buổi 
+# Buổi 10
 
 # Bài tập về nhà
 1, Nhập n từ bàn phím, in dãy số Finonaxi từ 0 đến n
