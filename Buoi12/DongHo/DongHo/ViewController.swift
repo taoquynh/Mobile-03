@@ -18,11 +18,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var kimGiayView: UIView!
     @IBOutlet weak var clockView: UIImageView!
     
+    @IBOutlet weak var centerView: UIView!
+    var timer: Timer!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.bringSubviewToFront(centerView)
+        centerView.frame.size = CGSize(width: 20, height: 20)
+        centerView.center = view.center
+        centerView.layer.cornerRadius = centerView.bounds.width/2
+        centerView.layer.masksToBounds = true
+        centerView.backgroundColor = UIColor.black
         setUI()
-        getLocation(kimView: kimGioView, alpha: 60)
+        runDongHo()
+        
     }
     
     func setUI(){
@@ -53,7 +62,32 @@ class ViewController: UIViewController {
         let minute = calendar.component(.minute, from: currentDate as Date)
         let second = calendar.component(.second, from: currentDate as Date)
         
-        return (0,0,0)
+        let hourInAboutSecond = hour*60*60 + minute*60 + second
+        let minuteInAboutSecond = minute*60 + second
+        
+        let firstAlphaHour = CGFloat.pi * (2*CGFloat(hourInAboutSecond)/12/60/60 - 0.5)
+        let firstAlphaMinute = CGFloat.pi * (2*CGFloat(minuteInAboutSecond)/60/60 - 0.5)
+        let firstAlphaSecond = CGFloat.pi * (2*CGFloat(second) - 0.5)
+    
+        return (firstAlphaHour, firstAlphaMinute, firstAlphaSecond)
+    }
+    
+    func runDongHo(){
+        getLocation(kimView: kimGioView, alpha: setTimer().hour)
+        getLocation(kimView: kimPhutView, alpha: setTimer().minute)
+        getLocation(kimView: kimGiayView, alpha: setTimer().second)
+        
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimer), userInfo: nil, repeats: true)
+    }
+    
+    @objc func runTimer(){
+        let omegaGiay = CGAffineTransform(rotationAngle: CGFloat.pi*2/60)
+        let omegaPhut = CGAffineTransform(rotationAngle: CGFloat.pi*2/60/60)
+        let omegaGio = CGAffineTransform(rotationAngle: CGFloat.pi*2/60/60/12)
+        
+        kimGiayView.transform = kimGiayView.transform.concatenating(omegaGiay)
+        kimPhutView.transform = kimPhutView.transform.concatenating(omegaPhut)
+        kimGioView.transform = kimGioView.transform.concatenating(omegaGio)
     }
 }
 
