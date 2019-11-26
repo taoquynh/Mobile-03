@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rLj-G6-f7v">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vC9-kg-ZhF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="ze9-Qe-ie5">
+                                        <rect key="frame" x="64" y="200" width="286" height="232"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dsb-wk-c35">
+                                                <rect key="frame" x="0.0" y="0.0" width="286" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="shI-3T-yrQ">
+                                                <rect key="frame" x="0.0" y="66" width="286" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TcG-Ns-qzj">
+                                                <rect key="frame" x="0.0" y="132" width="286" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pm2-P9-N7s">
+                                                <rect key="frame" x="0.0" y="198" width="286" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="dy6-IF-3rr">
+                                        <rect key="frame" x="64" y="688" width="286" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1c-MF-zFV">
+                                                <rect key="frame" x="0.0" y="0.0" width="135" height="30"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ra-Qw-A3i">
+                                                <rect key="frame" x="151" y="0.0" width="135" height="30"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="dy6-IF-3rr" secondAttribute="bottom" constant="100" id="2qV-Zm-iwh"/>
+                                    <constraint firstItem="ze9-Qe-ie5" firstAttribute="top" secondItem="vC9-kg-ZhF" secondAttribute="top" constant="200" id="HOm-bs-Mzv"/>
+                                    <constraint firstAttribute="trailing" secondItem="dy6-IF-3rr" secondAttribute="trailing" constant="64" id="Sct-MT-G4t"/>
+                                    <constraint firstItem="dy6-IF-3rr" firstAttribute="leading" secondItem="vC9-kg-ZhF" secondAttribute="leading" constant="64" id="Ucr-db-Clw"/>
+                                    <constraint firstAttribute="trailing" secondItem="ze9-Qe-ie5" secondAttribute="trailing" constant="64" id="nRd-Uc-BCt"/>
+                                    <constraint firstItem="ze9-Qe-ie5" firstAttribute="leading" secondItem="vC9-kg-ZhF" secondAttribute="leading" constant="64" id="wqA-s4-wyl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vC9-kg-ZhF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Hg4-ub-Tnl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vC9-kg-ZhF" secondAttribute="trailing" id="TSF-vK-YgI"/>
+                            <constraint firstItem="vC9-kg-ZhF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bWH-Tp-hRb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vC9-kg-ZhF" secondAttribute="bottom" id="hfv-Ft-EsG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="153"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r5c-xC-brN">
+            <objects>
+                <viewController id="rLj-G6-f7v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VVl-8C-vko">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-CC-9kd">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxn-ov-rVV">
+                                        <rect key="frame" x="16" y="16" width="382" height="742.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jd5-KQ-gFB">
+                                                <rect key="frame" x="16" y="16" width="120" height="120"/>
+                                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Jd5-KQ-gFB" secondAttribute="height" id="9cH-pk-jUc"/>
+                                                    <constraint firstAttribute="width" constant="120" id="L8u-2B-g1t"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5Z-lO-9iM">
+                                                <rect key="frame" x="152" y="16" width="214" height="710.5"/>
+                                                <mutableString key="text">Bàn thắng: Egy Maulana 4', Osvaldo 86'.
+
+Được đánh giá là ứng viên đoạt HC vàng SEA Games 30, Thái Lan không tung ra đội hình mạnh nhất ở trận ra quân giống Việt Nam khi tiếp Brunei. Trong tâm thế bám đuổi Việt Nam, Akira Nishino vẫn tự tin cất trụ cột Supachok Sarachat trên ghế dự bị và chủ động chơi chậm rãi. Tuy nhiên, cựu HLV tuyển Nhật Bản không lường được quyết tâm của đối thủ. Ngay phút thứ tư, lưới của Thái Lan rung lên sau đường phạt góc bên cánh phải. Egy Maulana nhanh chân dứt điểm từ cự ly gần, mở tỷ số.
+
+Gáo nước lạnh từ sớm khiến Thái Lan choáng váng và thiếu hẳn độ chính xác ở các tình huống cuối cùng. Lối chơi tấn công biên, dựa trên những pha ban bật cự ly ngắn vẫn được các học trò của Nishino thực hiện, nhưng mỗi khi chuyền ngược vào trung lộ, các chân sút phía trong đều bỏ lỡ cơ hội. </mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="a5Z-lO-9iM" secondAttribute="trailing" constant="16" id="2n7-ju-N0Q"/>
+                                            <constraint firstItem="a5Z-lO-9iM" firstAttribute="leading" secondItem="Jd5-KQ-gFB" secondAttribute="trailing" constant="16" id="7uQ-BY-fHz"/>
+                                            <constraint firstItem="a5Z-lO-9iM" firstAttribute="top" secondItem="Jd5-KQ-gFB" secondAttribute="top" id="M0L-Jz-1H2"/>
+                                            <constraint firstAttribute="bottom" secondItem="Jd5-KQ-gFB" secondAttribute="bottom" priority="250" constant="16" id="PWs-bk-iSD"/>
+                                            <constraint firstItem="Jd5-KQ-gFB" firstAttribute="top" secondItem="vxn-ov-rVV" secondAttribute="top" constant="16" id="ROz-Y5-OS7"/>
+                                            <constraint firstAttribute="bottom" secondItem="a5Z-lO-9iM" secondAttribute="bottom" constant="16" id="TlP-0h-b3T"/>
+                                            <constraint firstItem="Jd5-KQ-gFB" firstAttribute="leading" secondItem="vxn-ov-rVV" secondAttribute="leading" constant="16" id="jgz-mA-RBc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="vxn-ov-rVV" firstAttribute="leading" secondItem="jiH-CC-9kd" secondAttribute="leading" constant="16" id="8dm-av-0BR"/>
+                                    <constraint firstAttribute="trailing" secondItem="vxn-ov-rVV" secondAttribute="trailing" constant="16" id="Ee2-MH-kEu"/>
+                                    <constraint firstItem="vxn-ov-rVV" firstAttribute="top" secondItem="jiH-CC-9kd" secondAttribute="top" constant="16" id="vSO-lo-8qi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="G8h-R5-1if" firstAttribute="bottom" secondItem="jiH-CC-9kd" secondAttribute="bottom" id="V3F-ls-Ihm"/>
+                            <constraint firstItem="jiH-CC-9kd" firstAttribute="top" secondItem="G8h-R5-1if" secondAttribute="top" id="lVb-qT-NFC"/>
+                            <constraint firstItem="G8h-R5-1if" firstAttribute="trailing" secondItem="jiH-CC-9kd" secondAttribute="trailing" id="mO3-Op-fEP"/>
+                            <constraint firstItem="jiH-CC-9kd" firstAttribute="leading" secondItem="G8h-R5-1if" secondAttribute="leading" id="x67-IW-7AH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G8h-R5-1if"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nmu-22-P5P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339.1304347826087" y="152.67857142857142"/>
+        </scene>
+    </scenes>
+</document>
