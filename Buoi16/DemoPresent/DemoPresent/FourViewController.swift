@@ -19,6 +19,8 @@ class FourViewController: UIViewController {
         let cameraBarButton = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(tapCamera))
         let newBarButton = UIBarButtonItem(title: "New", style: .done, target: self, action: #selector(tapCamera))
         navigationItem.rightBarButtonItems = [cameraBarButton, newBarButton]
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(tapCamera))
+        navigationController?.navigationItem
     }
     
     @objc func tapCamera(){
