@@ -31,20 +31,29 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // khởi tạo dữ liệu
         data2()
         
+        // thêm các đối tượng vào màn hình
         view.addSubview(scrollView)
-        scrollView.delegate = self
         view.addSubview(pageControl)
+        
+        // gán delegate vào scrollView, đồng thời class cha phải kế thừa UIScrollViewDelegate
+        scrollView.delegate = self
+        
+        // set toạ độ và các thuộc tính của pageCotrol
         pageControl.frame = CGRect(x: 0, y: view.frame.maxY - 50, width: 100, height: 20)
         pageControl.center.x = view.center.x
         pageControl.pageIndicatorTintColor = .cyan
         pageControl.currentPageIndicatorTintColor = .blue
         pageControl.numberOfPages = datas.count
         pageControl.currentPage = 0
+        
+        // mang pageControl lên mặt trên cùng
         view.bringSubviewToFront(pageControl)
-        setupImage3(datas)
-        print(scrollView.contentOffset)
+        
+        // gọi hàm
+        addContentScroll3(datas)
     }
     
     func data1(){
@@ -85,7 +94,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             
         ]
     }
-    func setupImage1(_ arrs: [UIImage], _ brrs: [String]){
+    func addContentScroll1(_ arrs: [UIImage], _ brrs: [String]){
         // tính kích thước màn hình
         let width = UIScreen.main.bounds.size.width
         let height = UIScreen.main.bounds.size.height
@@ -118,7 +127,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
                                         height: scrollView.frame.height * CGFloat(arrs.count))
     }
     
-    func setupImage2(_ data: [Name]) {
+    func addContentScroll2(_ data: [Name]) {
         let width = UIScreen.main.bounds.size.width
         let height = UIScreen.main.bounds.size.height
         for i in 0..<data.count {
@@ -135,7 +144,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = CGSize(width: width, height: scrollView.frame.height/2 * CGFloat(data.count))
     }
     
-    func setupImage3(_ dataNames: [Name]) {
+    func addContentScroll3(_ dataNames: [Name]) {
         let width = UIScreen.main.bounds.size.width
         let height = UIScreen.main.bounds.size.height
         for i in 0..<dataNames.count {
@@ -149,15 +158,17 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = CGSize(width: scrollView.frame.width * CGFloat(dataNames.count), height: height)
     }
     
+    // hàm này được định nghĩa trong UIScrollViewDelegate
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        // Xác định toạ độ khung nhìn của scrollView để thay đổi số trang hiện tại của pageControl
         let pageIndex = round(scrollView.contentOffset.x/view.frame.width)
-        //        print(scrollView.contentOffset)
         pageControl.currentPage = Int(pageIndex)
         
+        
+        // MARK: Tạo animate khi trượt các thành phần trong scrollView
         let maximumHorizontalOffset: CGFloat = scrollView.contentSize.width - scrollView.frame.width
         let currentHorizontalOffset: CGFloat = scrollView.contentOffset.x
         
-        // vertical
         let maximumVerticalOffset: CGFloat = scrollView.contentSize.height - scrollView.frame.height
         let currentVerticalOffset: CGFloat = scrollView.contentOffset.y
         
