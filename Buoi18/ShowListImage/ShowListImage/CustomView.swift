@@ -8,12 +8,12 @@
 
 import UIKit
 
-struct Names {
+struct Name {
     var image: String
     var label: String
 }
 
-class ViewImage: UIView {
+class CustomView: UIView {
     
     var imageView = UIImageView()
     var nameLabel = UILabel()
@@ -22,14 +22,13 @@ class ViewImage: UIView {
         super.init(frame: frame)
         
         imageView.frame = CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.width)
-        nameLabel.frame = CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.width)
+        nameLabel.frame = CGRect(x: 0, y: 30, width: self.bounds.size.width, height: self.bounds.size.width)
         
         self.addSubview(imageView)
-//        imageView.center = center
+        self.addSubview(nameLabel)
+        
         nameLabel.textAlignment = .center
         nameLabel.font = .boldSystemFont(ofSize: 40)
-        self.addSubview(nameLabel)
-        nameLabel.center = center
 //        nameLabel.center.y = center.y + 250
         nameLabel.textColor = .black
         self.layer.borderWidth = 2

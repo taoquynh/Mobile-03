@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A924D8D623A111F500740E49 /* Custom2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A924D8D523A111F500740E49 /* Custom2View.swift */; };
 		A9B06397239A7AFD00576907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B06396239A7AFD00576907 /* AppDelegate.swift */; };
 		A9B06399239A7AFD00576907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B06398239A7AFD00576907 /* SceneDelegate.swift */; };
 		A9B0639B239A7AFD00576907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0639A239A7AFD00576907 /* ViewController.swift */; };
 		A9B0639E239A7AFD00576907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B0639C239A7AFD00576907 /* Main.storyboard */; };
 		A9B063A0239A7AFE00576907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B0639F239A7AFE00576907 /* Assets.xcassets */; };
 		A9B063A3239A7AFE00576907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B063A1239A7AFE00576907 /* LaunchScreen.storyboard */; };
-		A9B063AB239A976200576907 /* ViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B063AA239A976200576907 /* ViewImage.swift */; };
+		A9B063AB239A976200576907 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B063AA239A976200576907 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A924D8D523A111F500740E49 /* Custom2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom2View.swift; sourceTree = "<group>"; };
 		A9B06393239A7AFD00576907 /* ShowListImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowListImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B06396239A7AFD00576907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B06398239A7AFD00576907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +27,7 @@
 		A9B0639F239A7AFE00576907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B063A2239A7AFE00576907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B063A4239A7AFE00576907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9B063AA239A976200576907 /* ViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImage.swift; sourceTree = "<group>"; };
+		A9B063AA239A976200576907 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 				A9B0639F239A7AFE00576907 /* Assets.xcassets */,
 				A9B063A1239A7AFE00576907 /* LaunchScreen.storyboard */,
 				A9B063A4239A7AFE00576907 /* Info.plist */,
-				A9B063AA239A976200576907 /* ViewImage.swift */,
+				A9B063AA239A976200576907 /* CustomView.swift */,
+				A924D8D523A111F500740E49 /* Custom2View.swift */,
 			);
 			path = ShowListImage;
 			sourceTree = "<group>";
@@ -141,10 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B063AB239A976200576907 /* ViewImage.swift in Sources */,
+				A9B063AB239A976200576907 /* CustomView.swift in Sources */,
 				A9B0639B239A7AFD00576907 /* ViewController.swift in Sources */,
 				A9B06397239A7AFD00576907 /* AppDelegate.swift in Sources */,
 				A9B06399239A7AFD00576907 /* SceneDelegate.swift in Sources */,
+				A924D8D623A111F500740E49 /* Custom2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
