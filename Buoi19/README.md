@@ -3,7 +3,7 @@
 
 # Bài tập về nhà
 1. Layout bằng code các màn hình sau
-<table style="background-color: #eee">
+<table bgcolor="#eff5f5">
 <tr>
 <p>- Login:</p>
  </tr>
