@@ -8,6 +8,7 @@
 
 - Detail:
 <center><img src = "../img/Kungpao.png" width="300"></center>
+![](/../img/Kungpao.png)
 
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
