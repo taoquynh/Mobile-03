@@ -3,18 +3,15 @@
 
 # Bài tập về nhà
 1. Layout bằng code các màn hình sau
-- Login:
-<img src = "../img/login.png" width="300">
-
-- Detail:
-<img src = "../img/Kungpao.png" width="300">
-
-<table>
+<table style="background-color: #eee">
+<tr>
+<p>- Login:</p>
+ </tr>
   <tr>
   <img src = "../img/login.png" width="300">
   </tr>
   <tr>
-  <p>-------</p>
+  <p>- Detail:</p>
    </tr>
   <tr>
     <img src = "../img/Kungpao.png" width="300">
