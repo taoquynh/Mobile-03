@@ -20,6 +20,7 @@ class SecondViewController: UIViewController {
         imageView.contentMode = .scaleAspectFit
         navigationItem.titleView = imageView // đặt titleView thay vì title cho navigationBar
         
+        navigationController?.navigationBar.barTintColor = .lightGray
         let cancelButton = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(cancelPress))
         navigationItem.leftBarButtonItem = cancelButton
     }
