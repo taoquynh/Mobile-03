@@ -3,20 +3,20 @@
 
 # Bài tập về nhà
 1. Layout bằng code các màn hình sau
-<table bgcolor="#eff5f5">
-<tr>
-<p>- Login:</p>
- </tr>
-  <tr>
-  <img src = "../img/login.png" width="300">
-  </tr>
-  <tr>
-  <p>- Detail:</p>
-   </tr>
-  <tr>
-    <img src = "../img/Kungpao.png" width="300">
-  </tr>
-</table>
+> <table>
+> <tr>
+> <p>- Login:</p>
+>  </tr>
+>   <tr>
+>   <img src = "../img/login.png" width="300">
+>   </tr>
+>   <tr>
+>   <p>- Detail:</p>
+>    </tr>
+>   <tr>
+>     <img src = "../img/Kungpao.png" width="300">
+>   </tr>
+> </table>
 
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
