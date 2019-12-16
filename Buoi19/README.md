@@ -4,11 +4,22 @@
 # Bài tập về nhà
 1. Layout bằng code các màn hình sau
 - Login:
-<center><img src = "../img/login.png" width="300"></center>
+<img src = "../img/login.png" width="300">
 
 - Detail:
-<center><img src = "../img/Kungpao.png" width="300"></center>
-![](/../img/Kungpao.png)
+<img src = "../img/Kungpao.png" width="300">
+
+<table>
+  <tr>
+  <img src = "../img/login.png" width="300">
+  </tr>
+  <tr>
+  <p>-------</p>
+   </tr>
+  <tr>
+    <img src = "../img/Kungpao.png" width="300">
+  </tr>
+</table>
 
 # Yêu cầu
     - Bài tập đẩy lên Github, gửi link bài tập qua Mail
