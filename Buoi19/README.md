@@ -59,4 +59,3 @@ NSLayoutConstraint.activate(constraintBlueView)
 ```
 ## Lưu ý
 
-
