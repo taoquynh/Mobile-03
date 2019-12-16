@@ -38,7 +38,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         view.addSubview(scrollView)
         view.addSubview(pageControl)
         
-        // gán delegate vào scrollView, đồng thời class cha phải kế thừa UIScrollViewDelegate
+        // gán delegate vào scrollView, đồng thời class cha phải kế thừa  
         scrollView.delegate = self
         
         // set toạ độ và các thuộc tính của pageCotrol
