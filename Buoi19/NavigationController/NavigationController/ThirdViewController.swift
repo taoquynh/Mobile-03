@@ -34,7 +34,7 @@ class ThirdViewController: UIViewController {
 
     @objc func goPress(){
         let thirdVC = FourViewController()
-        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .done, target: self, action: nil)
         navigationController?.pushViewController(thirdVC, animated: true)
     }
 
