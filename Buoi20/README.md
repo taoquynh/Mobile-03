@@ -5,7 +5,7 @@
 1. Layout bằng code các màn hình sau
 > <table>
 >   <tr>
->   <img src = "../img/layout.png" width="300">
+>   <img src = "../img/layout.jpg" width="300">
 >   </tr>
 > </table>
 
