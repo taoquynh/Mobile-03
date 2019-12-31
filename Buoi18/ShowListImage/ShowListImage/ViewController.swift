@@ -33,7 +33,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         // khởi tạo dữ liệu
         data2()
-        
+        data1()
         // thêm các đối tượng vào màn hình
         view.addSubview(scrollView)
         view.addSubview(pageControl)
@@ -54,6 +54,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         // gọi hàm
         addContentScroll3(datas)
+//        addContentScroll1(images, texts)
     }
     
     func data1(){
