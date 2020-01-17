@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Notification1ViewController" customModule="iOSControl" customModuleProvider="target">
+            <connections>
+                <outlet property="feelLabel" destination="D3R-ws-Ht7" id="iWN-Nc-anV"/>
+                <outlet property="titleLabel" destination="U5U-6T-pUY" id="1C8-Ok-dF8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiM-WT-u1m">
+                    <rect key="frame" x="100" y="282" width="175" height="30"/>
+                    <color key="backgroundColor" red="0.80698891930000005" green="1" blue="0.653304463" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="NextTo2"/>
+                    <connections>
+                        <action selector="onPress:" destination="-1" eventType="touchUpInside" id="6jw-zi-YVf"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5U-6T-pUY">
+                    <rect key="frame" x="40" y="120" width="295" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3R-ws-Ht7">
+                    <rect key="frame" x="40" y="161" width="295" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OiM-WT-u1m" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="5V1-DX-U3E"/>
+                <constraint firstItem="D3R-ws-Ht7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="DqM-nM-65O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="D3R-ws-Ht7" secondAttribute="trailing" constant="40" id="KfS-gv-8lX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OiM-WT-u1m" secondAttribute="trailing" constant="100" id="OKX-Qh-gXg"/>
+                <constraint firstItem="U5U-6T-pUY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="b92-Vs-uRC"/>
+                <constraint firstItem="OiM-WT-u1m" firstAttribute="top" secondItem="D3R-ws-Ht7" secondAttribute="bottom" constant="100" id="hBK-Rn-mRR"/>
+                <constraint firstItem="U5U-6T-pUY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="kdB-YW-MSN"/>
+                <constraint firstItem="D3R-ws-Ht7" firstAttribute="top" secondItem="U5U-6T-pUY" secondAttribute="bottom" constant="20" id="oJv-lr-cLF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="U5U-6T-pUY" secondAttribute="trailing" constant="40" id="reK-4t-rCb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

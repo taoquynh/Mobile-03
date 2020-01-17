@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentWithViewViewController" customModule="iOSControl" customModuleProvider="target">
+            <connections>
+                <outlet property="greenView" destination="4Lh-ih-g2C" id="A3F-vn-g6l"/>
+                <outlet property="pinkView" destination="Ccf-Zr-XXj" id="FHj-0Q-8dd"/>
+                <outlet property="segment" destination="F13-1K-O2P" id="rnQ-J6-Wb5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="F13-1K-O2P">
+                    <rect key="frame" x="16" y="36" width="288" height="29"/>
+                    <segments>
+                        <segment title="Green"/>
+                        <segment title="Pink"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentTab:" destination="-1" eventType="valueChanged" id="JVH-JQ-jjL"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Lh-ih-g2C" userLabel="Green">
+                    <rect key="frame" x="0.0" y="80" width="320" height="488"/>
+                    <color key="backgroundColor" red="0.22672967690000001" green="1" blue="0.122612763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ccf-Zr-XXj" userLabel="Pink">
+                    <rect key="frame" x="0.0" y="80" width="320" height="488"/>
+                    <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ccf-Zr-XXj" firstAttribute="top" secondItem="F13-1K-O2P" secondAttribute="bottom" constant="16" id="3bG-Ov-5Ql"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Ccf-Zr-XXj" secondAttribute="bottom" id="4Ts-hA-Btu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="4Lh-ih-g2C" secondAttribute="bottom" id="B5Z-6G-Ad5"/>
+                <constraint firstItem="F13-1K-O2P" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="NGo-3u-X0j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ccf-Zr-XXj" secondAttribute="trailing" id="QT0-q9-O39"/>
+                <constraint firstItem="F13-1K-O2P" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="R5E-gh-7Gm"/>
+                <constraint firstItem="Ccf-Zr-XXj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="htf-ps-x2E"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4Lh-ih-g2C" secondAttribute="trailing" id="iGb-3K-wTb"/>
+                <constraint firstItem="4Lh-ih-g2C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="maJ-J0-Mad"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="F13-1K-O2P" secondAttribute="trailing" constant="16" id="rdP-vj-VYV"/>
+                <constraint firstItem="4Lh-ih-g2C" firstAttribute="top" secondItem="F13-1K-O2P" secondAttribute="bottom" constant="16" id="zwX-aH-Kn8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.75" y="123.59154929577466"/>
+        </view>
+    </objects>
+</document>

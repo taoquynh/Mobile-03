@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="142" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="iOSControl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="141.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4SY-sO-8Ys">
+                        <rect key="frame" x="0.0" y="4" width="321" height="133.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cafeloisl" translatesAutoresizingMaskIntoConstraints="NO" id="Prb-Zf-iZp">
+                                <rect key="frame" x="8" y="8" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="2Xx-Ip-cZ2"/>
+                                    <constraint firstAttribute="width" constant="64" id="thx-HW-Ny0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafe Deadend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DR2-tU-zMJ">
+                                <rect key="frame" x="80" y="8" width="201" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KE2-Vp-a9u">
+                                <rect key="frame" x="80" y="38" width="233" height="87.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unchecked" translatesAutoresizingMaskIntoConstraints="NO" id="bk9-mK-tds">
+                                <rect key="frame" x="289" y="6" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="P8j-Jv-Unp"/>
+                                    <constraint firstAttribute="height" constant="24" id="mcj-qU-uKD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="KE2-Vp-a9u" secondAttribute="bottom" constant="8" id="6g1-zu-XTy"/>
+                            <constraint firstItem="KE2-Vp-a9u" firstAttribute="leading" secondItem="Prb-Zf-iZp" secondAttribute="trailing" constant="8" id="Bum-Gh-DiH"/>
+                            <constraint firstItem="bk9-mK-tds" firstAttribute="centerY" secondItem="DR2-tU-zMJ" secondAttribute="centerY" id="KoI-Tb-apM"/>
+                            <constraint firstItem="KE2-Vp-a9u" firstAttribute="top" secondItem="bk9-mK-tds" secondAttribute="bottom" constant="8" id="MXV-qo-Cbv"/>
+                            <constraint firstItem="bk9-mK-tds" firstAttribute="leading" secondItem="DR2-tU-zMJ" secondAttribute="trailing" constant="8" id="QL1-bA-sQK"/>
+                            <constraint firstItem="DR2-tU-zMJ" firstAttribute="top" secondItem="4SY-sO-8Ys" secondAttribute="top" constant="8" id="Rbv-Hd-Yq0"/>
+                            <constraint firstItem="Prb-Zf-iZp" firstAttribute="leading" secondItem="4SY-sO-8Ys" secondAttribute="leading" constant="8" id="aRj-iJ-TAv"/>
+                            <constraint firstItem="DR2-tU-zMJ" firstAttribute="leading" secondItem="Prb-Zf-iZp" secondAttribute="trailing" constant="8" id="b0n-wP-9dc"/>
+                            <constraint firstAttribute="trailing" secondItem="bk9-mK-tds" secondAttribute="trailing" constant="8" id="fl3-Ph-Fdk"/>
+                            <constraint firstAttribute="trailing" secondItem="KE2-Vp-a9u" secondAttribute="trailing" constant="8" id="xdC-pk-NTG"/>
+                            <constraint firstItem="Prb-Zf-iZp" firstAttribute="top" secondItem="4SY-sO-8Ys" secondAttribute="top" constant="8" id="z4T-zm-mlu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.9688444715089749" green="0.9688444715089749" blue="0.9688444715089749" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4SY-sO-8Ys" secondAttribute="trailing" id="FWU-0a-3O5"/>
+                    <constraint firstItem="4SY-sO-8Ys" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bMx-j4-yDF"/>
+                    <constraint firstItem="4SY-sO-8Ys" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="bt1-64-AbH"/>
+                    <constraint firstAttribute="bottom" secondItem="4SY-sO-8Ys" secondAttribute="bottom" constant="4" id="xQB-t1-bof"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkImageView" destination="bk9-mK-tds" id="Q8G-fd-oXk"/>
+                <outlet property="descriptionLabel" destination="KE2-Vp-a9u" id="R2z-Cp-NZF"/>
+                <outlet property="photoImageView" destination="Prb-Zf-iZp" id="1Zf-dO-jkb"/>
+                <outlet property="titleLabel" destination="DR2-tU-zMJ" id="zXo-wD-8zx"/>
+            </connections>
+            <point key="canvasLocation" x="-94" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cafeloisl" width="448" height="448"/>
+        <image name="unchecked" width="33" height="33"/>
+    </resources>
+</document>

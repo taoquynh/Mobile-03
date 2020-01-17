@@ -1,4 +1,4 @@
-# Buổi 1
+# Buổi 7
 
 # Bài tập về nhà
 1. Đếm số nguyên tố trong đoạn [a, b]

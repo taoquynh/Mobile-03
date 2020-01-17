@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292DEFAB224E4FE800C72B05 /* ConvertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DEFAA224E4FE800C72B05 /* ConvertHelper.swift */; };
+		292DEFB3224E567C00C72B05 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DEFB2224E567C00C72B05 /* Color.swift */; };
+		292DEFB6224E5B6C00C72B05 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DEFB4224E5B6C00C72B05 /* PickerViewViewController.swift */; };
+		292DEFB7224E5B6C00C72B05 /* PickerViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292DEFB5224E5B6C00C72B05 /* PickerViewViewController.xib */; };
+		2935AD2A2256306D00AC877E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD292256306D00AC877E /* UIColor.swift */; };
+		2935AD2E225632AF00AC877E /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD2C225632AF00AC877E /* SwitchViewController.swift */; };
+		2935AD2F225632AF00AC877E /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2935AD2D225632AF00AC877E /* SwitchViewController.xib */; };
+		2935AD33225639AC00AC877E /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD31225639AC00AC877E /* StepperViewController.swift */; };
+		2935AD34225639AC00AC877E /* StepperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2935AD32225639AC00AC877E /* StepperViewController.xib */; };
+		2935AD3A22563B8400AC877E /* SegmentWithViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD3822563B8400AC877E /* SegmentWithViewViewController.swift */; };
+		2935AD3B22563B8400AC877E /* SegmentWithViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2935AD3922563B8400AC877E /* SegmentWithViewViewController.xib */; };
+		2935AD3E22563F3600AC877E /* SegmentWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD3C22563F3600AC877E /* SegmentWithViewController.swift */; };
+		2935AD3F22563F3600AC877E /* SegmentWithViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2935AD3D22563F3600AC877E /* SegmentWithViewController.xib */; };
+		2935AD422256401A00AC877E /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD402256401A00AC877E /* PinkViewController.swift */; };
+		2935AD432256401A00AC877E /* PinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2935AD412256401A00AC877E /* PinkViewController.xib */; };
+		2935AD462256402900AC877E /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935AD442256402900AC877E /* GreenViewController.swift */; };
+		2935AD472256402900AC877E /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2935AD452256402900AC877E /* GreenViewController.xib */; };
+		293F66972172EAD10098D203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F66962172EAD10098D203 /* AppDelegate.swift */; };
+		293F669E2172EAD30098D203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293F669D2172EAD30098D203 /* Assets.xcassets */; };
+		293F66A12172EAD30098D203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293F669F2172EAD30098D203 /* LaunchScreen.storyboard */; };
+		293F66AA2172EBCB0098D203 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F66A82172EBCB0098D203 /* MainViewController.swift */; };
+		293F66AB2172EBCB0098D203 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293F66A92172EBCB0098D203 /* MainViewController.xib */; };
+		293F66B12172FA570098D203 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F66AF2172FA570098D203 /* TextFieldViewController.swift */; };
+		293F66B22172FA570098D203 /* TextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293F66B02172FA570098D203 /* TextFieldViewController.xib */; };
+		296BD45F225E1DDC00844956 /* TapGesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD45D225E1DDC00844956 /* TapGesturesViewController.swift */; };
+		296BD460225E1DDC00844956 /* TapGesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BD45E225E1DDC00844956 /* TapGesturesViewController.xib */; };
+		296BD463225E1DF300844956 /* SwipeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD461225E1DF300844956 /* SwipeGestureViewController.swift */; };
+		296BD464225E1DF300844956 /* SwipeGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BD462225E1DF300844956 /* SwipeGestureViewController.xib */; };
+		296BD467225E1E0400844956 /* PinchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD465225E1E0400844956 /* PinchGestureViewController.swift */; };
+		296BD468225E1E0400844956 /* PinchGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BD466225E1E0400844956 /* PinchGestureViewController.xib */; };
+		296BD46B225E1E1600844956 /* PanGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD469225E1E1600844956 /* PanGestureViewController.swift */; };
+		296BD46C225E1E1600844956 /* PanGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BD46A225E1E1600844956 /* PanGestureViewController.xib */; };
+		296BD46F225E1E2A00844956 /* RotateGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD46D225E1E2A00844956 /* RotateGestureViewController.swift */; };
+		296BD470225E1E2A00844956 /* RotateGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BD46E225E1E2A00844956 /* RotateGestureViewController.xib */; };
+		296BD473225E1E3C00844956 /* LongPressGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD471225E1E3C00844956 /* LongPressGestureViewController.swift */; };
+		296BD474225E1E3C00844956 /* LongPressGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BD472225E1E3C00844956 /* LongPressGestureViewController.xib */; };
+		29E2CD39226DE9160083E821 /* DelegateFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD37226DE9160083E821 /* DelegateFirstViewController.swift */; };
+		29E2CD3A226DE9160083E821 /* DelegateFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2CD38226DE9160083E821 /* DelegateFirstViewController.xib */; };
+		29E2CD3D226DE9240083E821 /* Delegate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD3B226DE9240083E821 /* Delegate2ViewController.swift */; };
+		29E2CD3E226DE9240083E821 /* Delegate2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2CD3C226DE9240083E821 /* Delegate2ViewController.xib */; };
+		29E2CD42226DE93F0083E821 /* Notification1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD40226DE93F0083E821 /* Notification1ViewController.swift */; };
+		29E2CD43226DE93F0083E821 /* Notification1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2CD41226DE93F0083E821 /* Notification1ViewController.xib */; };
+		29E2CD46226DE94C0083E821 /* Notification2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD44226DE94C0083E821 /* Notification2ViewController.swift */; };
+		29E2CD47226DE94C0083E821 /* Notification2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2CD45226DE94C0083E821 /* Notification2ViewController.xib */; };
+		29E2CD4A226DE95B0083E821 /* Notification3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD48226DE95B0083E821 /* Notification3ViewController.swift */; };
+		29E2CD4B226DE95B0083E821 /* Notification3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2CD49226DE95B0083E821 /* Notification3ViewController.xib */; };
+		29E2CD4D226DF53E0083E821 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD4C226DF53E0083E821 /* Notification.swift */; };
+		29E2CD51226DF9F40083E821 /* DemoCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD4F226DF9F40083E821 /* DemoCollectionViewViewController.swift */; };
+		29E2CD52226DF9F40083E821 /* DemoCollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2CD50226DF9F40083E821 /* DemoCollectionViewViewController.xib */; };
+		29E2CD54226DFB000083E821 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD53226DFB000083E821 /* FoodCollectionViewCell.swift */; };
+		29F1A15C224905010017E10B /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1A15A224905010017E10B /* ButtonViewController.swift */; };
+		29F1A15D224905010017E10B /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F1A15B224905010017E10B /* ButtonViewController.xib */; };
+		A97000952269D5EF00ABDFD0 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97000932269D5EF00ABDFD0 /* TableViewViewController.swift */; };
+		A97000962269D5EF00ABDFD0 /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97000942269D5EF00ABDFD0 /* TableViewViewController.xib */; };
+		A970009A2269D61800ABDFD0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97000982269D61800ABDFD0 /* TableViewCell.swift */; };
+		A970009B2269D61800ABDFD0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97000992269D61800ABDFD0 /* TableViewCell.xib */; };
+		A970009D2269D98700ABDFD0 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970009C2269D98700ABDFD0 /* Food.swift */; };
+		A9982480226AABB300E9632B /* ListModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998247E226AABB300E9632B /* ListModelViewController.swift */; };
+		A9982481226AABB300E9632B /* ListModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A998247F226AABB300E9632B /* ListModelViewController.xib */; };
+		A9982484226AABC500E9632B /* CreateModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9982482226AABC500E9632B /* CreateModelViewController.swift */; };
+		A9982485226AABC500E9632B /* CreateModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9982483226AABC500E9632B /* CreateModelViewController.xib */; };
+		A9982488226AAD7B00E9632B /* ListModelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9982486226AAD7B00E9632B /* ListModelTableViewCell.swift */; };
+		A9982489226AAD7B00E9632B /* ListModelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9982487226AAD7B00E9632B /* ListModelTableViewCell.xib */; };
+		A998248B226ABB3100E9632B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998248A226ABB3100E9632B /* Post.swift */; };
+		A9EE66C523548E2A00A3C044 /* SegmentCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE66C423548E2A00A3C044 /* SegmentCode.swift */; };
+		AE9D0C6A224BA7B400614040 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D0C68224BA7B400614040 /* DatePickerViewController.swift */; };
+		AE9D0C6B224BA7B400614040 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9D0C69224BA7B400614040 /* DatePickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		292DEFAA224E4FE800C72B05 /* ConvertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertHelper.swift; sourceTree = "<group>"; };
+		292DEFB2224E567C00C72B05 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		292DEFB4224E5B6C00C72B05 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		292DEFB5224E5B6C00C72B05 /* PickerViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerViewViewController.xib; sourceTree = "<group>"; };
+		2935AD292256306D00AC877E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2935AD2C225632AF00AC877E /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		2935AD2D225632AF00AC877E /* SwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
+		2935AD31225639AC00AC877E /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		2935AD32225639AC00AC877E /* StepperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepperViewController.xib; sourceTree = "<group>"; };
+		2935AD3822563B8400AC877E /* SegmentWithViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentWithViewViewController.swift; sourceTree = "<group>"; };
+		2935AD3922563B8400AC877E /* SegmentWithViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentWithViewViewController.xib; sourceTree = "<group>"; };
+		2935AD3C22563F3600AC877E /* SegmentWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentWithViewController.swift; sourceTree = "<group>"; };
+		2935AD3D22563F3600AC877E /* SegmentWithViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentWithViewController.xib; sourceTree = "<group>"; };
+		2935AD402256401A00AC877E /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		2935AD412256401A00AC877E /* PinkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinkViewController.xib; sourceTree = "<group>"; };
+		2935AD442256402900AC877E /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		2935AD452256402900AC877E /* GreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
+		293F66932172EAD10098D203 /* iOSControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293F66962172EAD10098D203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		293F669D2172EAD30098D203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293F66A02172EAD30098D203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293F66A22172EAD30098D203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293F66A82172EBCB0098D203 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		293F66A92172EBCB0098D203 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		293F66AF2172FA570098D203 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		293F66B02172FA570098D203 /* TextFieldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldViewController.xib; sourceTree = "<group>"; };
+		296BD45D225E1DDC00844956 /* TapGesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesturesViewController.swift; sourceTree = "<group>"; };
+		296BD45E225E1DDC00844956 /* TapGesturesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TapGesturesViewController.xib; sourceTree = "<group>"; };
+		296BD461225E1DF300844956 /* SwipeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureViewController.swift; sourceTree = "<group>"; };
+		296BD462225E1DF300844956 /* SwipeGestureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwipeGestureViewController.xib; sourceTree = "<group>"; };
+		296BD465225E1E0400844956 /* PinchGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGestureViewController.swift; sourceTree = "<group>"; };
+		296BD466225E1E0400844956 /* PinchGestureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinchGestureViewController.xib; sourceTree = "<group>"; };
+		296BD469225E1E1600844956 /* PanGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureViewController.swift; sourceTree = "<group>"; };
+		296BD46A225E1E1600844956 /* PanGestureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PanGestureViewController.xib; sourceTree = "<group>"; };
+		296BD46D225E1E2A00844956 /* RotateGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGestureViewController.swift; sourceTree = "<group>"; };
+		296BD46E225E1E2A00844956 /* RotateGestureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RotateGestureViewController.xib; sourceTree = "<group>"; };
+		296BD471225E1E3C00844956 /* LongPressGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureViewController.swift; sourceTree = "<group>"; };
+		296BD472225E1E3C00844956 /* LongPressGestureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LongPressGestureViewController.xib; sourceTree = "<group>"; };
+		29E2CD37226DE9160083E821 /* DelegateFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateFirstViewController.swift; sourceTree = "<group>"; };
+		29E2CD38226DE9160083E821 /* DelegateFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelegateFirstViewController.xib; sourceTree = "<group>"; };
+		29E2CD3B226DE9240083E821 /* Delegate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate2ViewController.swift; sourceTree = "<group>"; };
+		29E2CD3C226DE9240083E821 /* Delegate2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Delegate2ViewController.xib; sourceTree = "<group>"; };
+		29E2CD40226DE93F0083E821 /* Notification1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification1ViewController.swift; sourceTree = "<group>"; };
+		29E2CD41226DE93F0083E821 /* Notification1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Notification1ViewController.xib; sourceTree = "<group>"; };
+		29E2CD44226DE94C0083E821 /* Notification2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification2ViewController.swift; sourceTree = "<group>"; };
+		29E2CD45226DE94C0083E821 /* Notification2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Notification2ViewController.xib; sourceTree = "<group>"; };
+		29E2CD48226DE95B0083E821 /* Notification3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification3ViewController.swift; sourceTree = "<group>"; };
+		29E2CD49226DE95B0083E821 /* Notification3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Notification3ViewController.xib; sourceTree = "<group>"; };
+		29E2CD4C226DF53E0083E821 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		29E2CD4F226DF9F40083E821 /* DemoCollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewViewController.swift; sourceTree = "<group>"; };
+		29E2CD50226DF9F40083E821 /* DemoCollectionViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCollectionViewViewController.xib; sourceTree = "<group>"; };
+		29E2CD53226DFB000083E821 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		29F1A15A224905010017E10B /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		29F1A15B224905010017E10B /* ButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		A97000932269D5EF00ABDFD0 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
+		A97000942269D5EF00ABDFD0 /* TableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
+		A97000982269D61800ABDFD0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A97000992269D61800ABDFD0 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A970009C2269D98700ABDFD0 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A998247E226AABB300E9632B /* ListModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelViewController.swift; sourceTree = "<group>"; };
+		A998247F226AABB300E9632B /* ListModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListModelViewController.xib; sourceTree = "<group>"; };
+		A9982482226AABC500E9632B /* CreateModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateModelViewController.swift; sourceTree = "<group>"; };
+		A9982483226AABC500E9632B /* CreateModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateModelViewController.xib; sourceTree = "<group>"; };
+		A9982486226AAD7B00E9632B /* ListModelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelTableViewCell.swift; sourceTree = "<group>"; };
+		A9982487226AAD7B00E9632B /* ListModelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListModelTableViewCell.xib; sourceTree = "<group>"; };
+		A998248A226ABB3100E9632B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A9EE66C423548E2A00A3C044 /* SegmentCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCode.swift; sourceTree = "<group>"; };
+		AE9D0C68224BA7B400614040 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		AE9D0C69224BA7B400614040 /* DatePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293F66902172EAD10098D203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292DEFA9224E4FCC00C72B05 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				292DEFAA224E4FE800C72B05 /* ConvertHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		292DEFAC224E553500C72B05 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				292DEFB4224E5B6C00C72B05 /* PickerViewViewController.swift */,
+				292DEFB5224E5B6C00C72B05 /* PickerViewViewController.xib */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		292DEFB1224E566C00C72B05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				292DEFB2224E567C00C72B05 /* Color.swift */,
+				A970009C2269D98700ABDFD0 /* Food.swift */,
+				A998248A226ABB3100E9632B /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2935AD282256304D00AC877E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD292256306D00AC877E /* UIColor.swift */,
+				29E2CD4C226DF53E0083E821 /* Notification.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2935AD2B2256326F00AC877E /* UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD2C225632AF00AC877E /* SwitchViewController.swift */,
+				2935AD2D225632AF00AC877E /* SwitchViewController.xib */,
+			);
+			path = UISwitch;
+			sourceTree = "<group>";
+		};
+		2935AD302256397100AC877E /* UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD31225639AC00AC877E /* StepperViewController.swift */,
+				2935AD32225639AC00AC877E /* StepperViewController.xib */,
+			);
+			path = UIStepper;
+			sourceTree = "<group>";
+		};
+		2935AD3522563AE200AC877E /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD3722563B5D00AC877E /* SegmentWithViewController */,
+				2935AD3622563B5100AC877E /* SegmentWithView */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		2935AD3622563B5100AC877E /* SegmentWithView */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD3822563B8400AC877E /* SegmentWithViewViewController.swift */,
+				2935AD3922563B8400AC877E /* SegmentWithViewViewController.xib */,
+				A9EE66C423548E2A00A3C044 /* SegmentCode.swift */,
+			);
+			path = SegmentWithView;
+			sourceTree = "<group>";
+		};
+		2935AD3722563B5D00AC877E /* SegmentWithViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD3C22563F3600AC877E /* SegmentWithViewController.swift */,
+				2935AD3D22563F3600AC877E /* SegmentWithViewController.xib */,
+				2935AD402256401A00AC877E /* PinkViewController.swift */,
+				2935AD412256401A00AC877E /* PinkViewController.xib */,
+				2935AD442256402900AC877E /* GreenViewController.swift */,
+				2935AD452256402900AC877E /* GreenViewController.xib */,
+			);
+			path = SegmentWithViewController;
+			sourceTree = "<group>";
+		};
+		293F668A2172EAD10098D203 = {
+			isa = PBXGroup;
+			children = (
+				293F66952172EAD10098D203 /* iOSControl */,
+				293F66942172EAD10098D203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293F66942172EAD10098D203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293F66932172EAD10098D203 /* iOSControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293F66952172EAD10098D203 /* iOSControl */ = {
+			isa = PBXGroup;
+			children = (
+				2935AD282256304D00AC877E /* Extensions */,
+				292DEFB1224E566C00C72B05 /* Models */,
+				292DEFA9224E4FCC00C72B05 /* Helper */,
+				293F66AC2172FA000098D203 /* ControlDemo */,
+				293F66AD2172FA0E0098D203 /* GetureDemo */,
+				A998247C226AAAFE00E9632B /* PassData */,
+				293F66962172EAD10098D203 /* AppDelegate.swift */,
+				293F669D2172EAD30098D203 /* Assets.xcassets */,
+				293F669F2172EAD30098D203 /* LaunchScreen.storyboard */,
+				293F66A22172EAD30098D203 /* Info.plist */,
+				293F66A82172EBCB0098D203 /* MainViewController.swift */,
+				293F66A92172EBCB0098D203 /* MainViewController.xib */,
+			);
+			path = iOSControl;
+			sourceTree = "<group>";
+		};
+		293F66AC2172FA000098D203 /* ControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29E2CD4E226DF9DE0083E821 /* CollectionView */,
+				A97000922269D42F00ABDFD0 /* TableView */,
+				2935AD3522563AE200AC877E /* Segment */,
+				2935AD302256397100AC877E /* UIStepper */,
+				2935AD2B2256326F00AC877E /* UISwitch */,
+				292DEFAC224E553500C72B05 /* PickerView */,
+				AE9D0C67224BA78700614040 /* DatePicker */,
+				29F1A159224904D80017E10B /* Button */,
+				293F66AE2172FA230098D203 /* TextField */,
+			);
+			path = ControlDemo;
+			sourceTree = "<group>";
+		};
+		293F66AD2172FA0E0098D203 /* GetureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				296BD45C225E1DBF00844956 /* Long Press */,
+				296BD45B225E1DB800844956 /* Rotate */,
+				296BD45A225E1DAF00844956 /* Pan */,
+				296BD459225E1DA800844956 /* Pinch */,
+				296BD458225E1DA100844956 /* Swipe */,
+				296BD457225E1D9900844956 /* Tap */,
+			);
+			path = GetureDemo;
+			sourceTree = "<group>";
+		};
+		293F66AE2172FA230098D203 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				293F66AF2172FA570098D203 /* TextFieldViewController.swift */,
+				293F66B02172FA570098D203 /* TextFieldViewController.xib */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		296BD457225E1D9900844956 /* Tap */ = {
+			isa = PBXGroup;
+			children = (
+				296BD45D225E1DDC00844956 /* TapGesturesViewController.swift */,
+				296BD45E225E1DDC00844956 /* TapGesturesViewController.xib */,
+			);
+			path = Tap;
+			sourceTree = "<group>";
+		};
+		296BD458225E1DA100844956 /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				296BD461225E1DF300844956 /* SwipeGestureViewController.swift */,
+				296BD462225E1DF300844956 /* SwipeGestureViewController.xib */,
+			);
+			path = Swipe;
+			sourceTree = "<group>";
+		};
+		296BD459225E1DA800844956 /* Pinch */ = {
+			isa = PBXGroup;
+			children = (
+				296BD465225E1E0400844956 /* PinchGestureViewController.swift */,
+				296BD466225E1E0400844956 /* PinchGestureViewController.xib */,
+			);
+			path = Pinch;
+			sourceTree = "<group>";
+		};
+		296BD45A225E1DAF00844956 /* Pan */ = {
+			isa = PBXGroup;
+			children = (
+				296BD469225E1E1600844956 /* PanGestureViewController.swift */,
+				296BD46A225E1E1600844956 /* PanGestureViewController.xib */,
+			);
+			path = Pan;
+			sourceTree = "<group>";
+		};
+		296BD45B225E1DB800844956 /* Rotate */ = {
+			isa = PBXGroup;
+			children = (
+				296BD46D225E1E2A00844956 /* RotateGestureViewController.swift */,
+				296BD46E225E1E2A00844956 /* RotateGestureViewController.xib */,
+			);
+			path = Rotate;
+			sourceTree = "<group>";
+		};
+		296BD45C225E1DBF00844956 /* Long Press */ = {
+			isa = PBXGroup;
+			children = (
+				296BD471225E1E3C00844956 /* LongPressGestureViewController.swift */,
+				296BD472225E1E3C00844956 /* LongPressGestureViewController.xib */,
+			);
+			path = "Long Press";
+			sourceTree = "<group>";
+		};
+		29E2CD32226DE8A90083E821 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				29E2CD37226DE9160083E821 /* DelegateFirstViewController.swift */,
+				29E2CD38226DE9160083E821 /* DelegateFirstViewController.xib */,
+				29E2CD3B226DE9240083E821 /* Delegate2ViewController.swift */,
+				29E2CD3C226DE9240083E821 /* Delegate2ViewController.xib */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		29E2CD3F226DE92E0083E821 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				29E2CD40226DE93F0083E821 /* Notification1ViewController.swift */,
+				29E2CD41226DE93F0083E821 /* Notification1ViewController.xib */,
+				29E2CD44226DE94C0083E821 /* Notification2ViewController.swift */,
+				29E2CD45226DE94C0083E821 /* Notification2ViewController.xib */,
+				29E2CD48226DE95B0083E821 /* Notification3ViewController.swift */,
+				29E2CD49226DE95B0083E821 /* Notification3ViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		29E2CD4E226DF9DE0083E821 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				29E2CD4F226DF9F40083E821 /* DemoCollectionViewViewController.swift */,
+				29E2CD50226DF9F40083E821 /* DemoCollectionViewViewController.xib */,
+				29E2CD53226DFB000083E821 /* FoodCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		29F1A159224904D80017E10B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				29F1A15A224905010017E10B /* ButtonViewController.swift */,
+				29F1A15B224905010017E10B /* ButtonViewController.xib */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		A97000922269D42F00ABDFD0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A97000972269D5FB00ABDFD0 /* Cell */,
+				A97000932269D5EF00ABDFD0 /* TableViewViewController.swift */,
+				A97000942269D5EF00ABDFD0 /* TableViewViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		A97000972269D5FB00ABDFD0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A97000982269D61800ABDFD0 /* TableViewCell.swift */,
+				A97000992269D61800ABDFD0 /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A998247C226AAAFE00E9632B /* PassData */ = {
+			isa = PBXGroup;
+			children = (
+				29E2CD3F226DE92E0083E821 /* Notification */,
+				29E2CD32226DE8A90083E821 /* Delegate */,
+				A998247D226AAB3800E9632B /* Closure */,
+			);
+			path = PassData;
+			sourceTree = "<group>";
+		};
+		A998247D226AAB3800E9632B /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				A998247E226AABB300E9632B /* ListModelViewController.swift */,
+				A998247F226AABB300E9632B /* ListModelViewController.xib */,
+				A9982482226AABC500E9632B /* CreateModelViewController.swift */,
+				A9982483226AABC500E9632B /* CreateModelViewController.xib */,
+				A9982486226AAD7B00E9632B /* ListModelTableViewCell.swift */,
+				A9982487226AAD7B00E9632B /* ListModelTableViewCell.xib */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		AE9D0C67224BA78700614040 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D0C68224BA7B400614040 /* DatePickerViewController.swift */,
+				AE9D0C69224BA7B400614040 /* DatePickerViewController.xib */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293F66922172EAD10098D203 /* iOSControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293F66A52172EAD30098D203 /* Build configuration list for PBXNativeTarget "iOSControl" */;
+			buildPhases = (
+				293F668F2172EAD10098D203 /* Sources */,
+				293F66902172EAD10098D203 /* Frameworks */,
+				293F66912172EAD10098D203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSControl;
+			productName = iOSControl;
+			productReference = 293F66932172EAD10098D203 /* iOSControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293F668B2172EAD10098D203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tào Quỳnh ";
+				TargetAttributes = {
+					293F66922172EAD10098D203 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 293F668E2172EAD10098D203 /* Build configuration list for PBXProject "iOSControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293F668A2172EAD10098D203;
+			productRefGroup = 293F66942172EAD10098D203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293F66922172EAD10098D203 /* iOSControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293F66912172EAD10098D203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9D0C6B224BA7B400614040 /* DatePickerViewController.xib in Resources */,
+				2935AD3B22563B8400AC877E /* SegmentWithViewViewController.xib in Resources */,
+				293F66B22172FA570098D203 /* TextFieldViewController.xib in Resources */,
+				2935AD2F225632AF00AC877E /* SwitchViewController.xib in Resources */,
+				29E2CD3E226DE9240083E821 /* Delegate2ViewController.xib in Resources */,
+				2935AD432256401A00AC877E /* PinkViewController.xib in Resources */,
+				296BD470225E1E2A00844956 /* RotateGestureViewController.xib in Resources */,
+				296BD46C225E1E1600844956 /* PanGestureViewController.xib in Resources */,
+				29F1A15D224905010017E10B /* ButtonViewController.xib in Resources */,
+				296BD464225E1DF300844956 /* SwipeGestureViewController.xib in Resources */,
+				29E2CD3A226DE9160083E821 /* DelegateFirstViewController.xib in Resources */,
+				293F66A12172EAD30098D203 /* LaunchScreen.storyboard in Resources */,
+				A97000962269D5EF00ABDFD0 /* TableViewViewController.xib in Resources */,
+				2935AD472256402900AC877E /* GreenViewController.xib in Resources */,
+				A9982485226AABC500E9632B /* CreateModelViewController.xib in Resources */,
+				2935AD3F22563F3600AC877E /* SegmentWithViewController.xib in Resources */,
+				29E2CD47226DE94C0083E821 /* Notification2ViewController.xib in Resources */,
+				2935AD34225639AC00AC877E /* StepperViewController.xib in Resources */,
+				292DEFB7224E5B6C00C72B05 /* PickerViewViewController.xib in Resources */,
+				29E2CD43226DE93F0083E821 /* Notification1ViewController.xib in Resources */,
+				293F66AB2172EBCB0098D203 /* MainViewController.xib in Resources */,
+				A970009B2269D61800ABDFD0 /* TableViewCell.xib in Resources */,
+				296BD460225E1DDC00844956 /* TapGesturesViewController.xib in Resources */,
+				A9982489226AAD7B00E9632B /* ListModelTableViewCell.xib in Resources */,
+				A9982481226AABB300E9632B /* ListModelViewController.xib in Resources */,
+				296BD474225E1E3C00844956 /* LongPressGestureViewController.xib in Resources */,
+				29E2CD52226DF9F40083E821 /* DemoCollectionViewViewController.xib in Resources */,
+				29E2CD4B226DE95B0083E821 /* Notification3ViewController.xib in Resources */,
+				293F669E2172EAD30098D203 /* Assets.xcassets in Resources */,
+				296BD468225E1E0400844956 /* PinchGestureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293F668F2172EAD10098D203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296BD45F225E1DDC00844956 /* TapGesturesViewController.swift in Sources */,
+				29F1A15C224905010017E10B /* ButtonViewController.swift in Sources */,
+				A9982488226AAD7B00E9632B /* ListModelTableViewCell.swift in Sources */,
+				292DEFAB224E4FE800C72B05 /* ConvertHelper.swift in Sources */,
+				29E2CD39226DE9160083E821 /* DelegateFirstViewController.swift in Sources */,
+				2935AD33225639AC00AC877E /* StepperViewController.swift in Sources */,
+				A9EE66C523548E2A00A3C044 /* SegmentCode.swift in Sources */,
+				2935AD3A22563B8400AC877E /* SegmentWithViewViewController.swift in Sources */,
+				A970009D2269D98700ABDFD0 /* Food.swift in Sources */,
+				A998248B226ABB3100E9632B /* Post.swift in Sources */,
+				2935AD422256401A00AC877E /* PinkViewController.swift in Sources */,
+				2935AD3E22563F3600AC877E /* SegmentWithViewController.swift in Sources */,
+				2935AD2E225632AF00AC877E /* SwitchViewController.swift in Sources */,
+				292DEFB6224E5B6C00C72B05 /* PickerViewViewController.swift in Sources */,
+				296BD473225E1E3C00844956 /* LongPressGestureViewController.swift in Sources */,
+				AE9D0C6A224BA7B400614040 /* DatePickerViewController.swift in Sources */,
+				29E2CD54226DFB000083E821 /* FoodCollectionViewCell.swift in Sources */,
+				2935AD462256402900AC877E /* GreenViewController.swift in Sources */,
+				29E2CD51226DF9F40083E821 /* DemoCollectionViewViewController.swift in Sources */,
+				2935AD2A2256306D00AC877E /* UIColor.swift in Sources */,
+				29E2CD4A226DE95B0083E821 /* Notification3ViewController.swift in Sources */,
+				293F66972172EAD10098D203 /* AppDelegate.swift in Sources */,
+				293F66AA2172EBCB0098D203 /* MainViewController.swift in Sources */,
+				296BD467225E1E0400844956 /* PinchGestureViewController.swift in Sources */,
+				296BD46F225E1E2A00844956 /* RotateGestureViewController.swift in Sources */,
+				292DEFB3224E567C00C72B05 /* Color.swift in Sources */,
+				A97000952269D5EF00ABDFD0 /* TableViewViewController.swift in Sources */,
+				A9982484226AABC500E9632B /* CreateModelViewController.swift in Sources */,
+				29E2CD46226DE94C0083E821 /* Notification2ViewController.swift in Sources */,
+				29E2CD42226DE93F0083E821 /* Notification1ViewController.swift in Sources */,
+				29E2CD3D226DE9240083E821 /* Delegate2ViewController.swift in Sources */,
+				296BD46B225E1E1600844956 /* PanGestureViewController.swift in Sources */,
+				29E2CD4D226DF53E0083E821 /* Notification.swift in Sources */,
+				A9982480226AABB300E9632B /* ListModelViewController.swift in Sources */,
+				293F66B12172FA570098D203 /* TextFieldViewController.swift in Sources */,
+				296BD463225E1DF300844956 /* SwipeGestureViewController.swift in Sources */,
+				A970009A2269D61800ABDFD0 /* TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		293F669F2172EAD30098D203 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293F66A02172EAD30098D203 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293F66A32172EAD30098D203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293F66A42172EAD30098D203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293F66A62172EAD30098D203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z872JX6928;
+				INFOPLIST_FILE = iOSControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taoquynh.iOSControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		293F66A72172EAD30098D203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z872JX6928;
+				INFOPLIST_FILE = iOSControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taoquynh.iOSControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293F668E2172EAD10098D203 /* Build configuration list for PBXProject "iOSControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293F66A32172EAD30098D203 /* Debug */,
+				293F66A42172EAD30098D203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293F66A52172EAD30098D203 /* Build configuration list for PBXNativeTarget "iOSControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293F66A62172EAD30098D203 /* Debug */,
+				293F66A72172EAD30098D203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293F668B2172EAD10098D203 /* Project object */;
+}
