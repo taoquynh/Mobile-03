@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var timer: Timer!
     
     // khai báo biến n
-    var n = 2
+    var n = 15
     
     // khai báo biến đếm
     var count = 0
