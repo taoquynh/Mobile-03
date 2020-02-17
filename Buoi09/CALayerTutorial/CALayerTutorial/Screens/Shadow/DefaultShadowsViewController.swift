@@ -12,7 +12,7 @@ class DefaultShadowsViewController: UIViewController {
 
     let width: CGFloat = 200
     let height: CGFloat = 200
-    let vw = UIImageView()
+    let anh = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
