@@ -20,16 +20,14 @@ class ViewController: UIViewController {
         print("Đã huỷ HomeViewController")
     }
     
-    let segmentControl: UISegmentedControl = {
-        let segment = UISegmentedControl(items: ["Chưa xử lý", "Đang xử lý", "Đã xử lý"])
+    let segmentControl: SegmentControl = {
+        let segment = SegmentControl(items: ["Chưa xử lý", "Đang xử lý", "Đã xử lý"])
         segment.translatesAutoresizingMaskIntoConstraints = false
         // Make second segment selected
         segment.selectedSegmentIndex = 0
         //thay đổi màu segment được chọn
         segment.selectedSegmentTintColor = UIColor.brown
-        segment.backgroundColor = UIColor.black
-        segment.layer.borderColor = UIColor.red.cgColor
-        segment.layer.borderWidth = 1
+        segment.backgroundColor = UIColor.blue
         return segment
     }()
     
@@ -60,9 +58,9 @@ class ViewController: UIViewController {
         
         segmentControl.addTarget(self, action: #selector(segmentedValueChanged(_:)), for: .valueChanged)
         
-        
     }
-
+    
+    
     @objc func segmentedValueChanged(_ sender:UISegmentedControl!){
         print("Selected Segment Index is : \(sender.selectedSegmentIndex)")
         switch sender.selectedSegmentIndex {
@@ -129,4 +127,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
+}
+
+class SegmentControl: UISegmentedControl {
+    override open func layoutSubviews() {
+      super.layoutSubviews()
+      layer.cornerRadius = self.bounds.size.height / 2.0
+        layer.borderColor = UIColor.red.cgColor
+      layer.borderWidth = 1.0
+//      layer.masksToBounds = true
+//      clipsToBounds = true
+
+   }
 }
