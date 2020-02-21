@@ -1,0 +1,6 @@
+framework module Pods_BookingVPTests {
+  umbrella header "Pods-BookingVPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

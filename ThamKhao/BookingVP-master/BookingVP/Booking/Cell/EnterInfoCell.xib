@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="201" id="KGk-i7-Jjw" customClass="EnterInfoCell" customModule="BookingVP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="201"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="201"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tên người đặt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90R-Zi-gRf">
+                        <rect key="frame" x="16" y="16" width="94" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kec-oO-pYo">
+                        <rect key="frame" x="112" y="16" width="8" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập tên đầy đủ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fav-GI-Jeq">
+                        <rect key="frame" x="16" y="42" width="288" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Số điện thoại" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAr-lY-UzJ">
+                        <rect key="frame" x="16" y="84" width="90" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="th3-14-JnK">
+                        <rect key="frame" x="108" y="84" width="8" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập số điện thoại" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XlI-ES-dep">
+                        <rect key="frame" x="16" y="113" width="288" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kec-oO-pYo" firstAttribute="top" secondItem="90R-Zi-gRf" secondAttribute="top" id="4gt-vA-VgZ"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XlI-ES-dep" secondAttribute="bottom" id="5UY-a1-DHt"/>
+                    <constraint firstItem="90R-Zi-gRf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="5hx-wo-eNJ"/>
+                    <constraint firstItem="iAr-lY-UzJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="6I3-Ez-YXf"/>
+                    <constraint firstItem="fav-GI-Jeq" firstAttribute="top" secondItem="kec-oO-pYo" secondAttribute="bottom" constant="5" id="88g-Cl-lqB"/>
+                    <constraint firstItem="kec-oO-pYo" firstAttribute="leading" secondItem="90R-Zi-gRf" secondAttribute="trailing" constant="2" id="9p8-fs-fSU"/>
+                    <constraint firstAttribute="trailing" secondItem="fav-GI-Jeq" secondAttribute="trailing" constant="16" id="I1I-Jh-IDV"/>
+                    <constraint firstItem="XlI-ES-dep" firstAttribute="trailing" secondItem="fav-GI-Jeq" secondAttribute="trailing" id="JEg-WR-aMp"/>
+                    <constraint firstItem="th3-14-JnK" firstAttribute="top" secondItem="iAr-lY-UzJ" secondAttribute="top" id="aLp-Lj-tjf"/>
+                    <constraint firstItem="90R-Zi-gRf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="bQ0-kl-spF"/>
+                    <constraint firstItem="XlI-ES-dep" firstAttribute="leading" secondItem="fav-GI-Jeq" secondAttribute="leading" id="sgc-qc-vAm"/>
+                    <constraint firstItem="th3-14-JnK" firstAttribute="leading" secondItem="iAr-lY-UzJ" secondAttribute="trailing" constant="2" id="vnk-pm-d3C"/>
+                    <constraint firstItem="fav-GI-Jeq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="xAh-1N-Ee5"/>
+                    <constraint firstItem="XlI-ES-dep" firstAttribute="top" secondItem="th3-14-JnK" secondAttribute="bottom" constant="8" id="xEV-5d-0Md"/>
+                    <constraint firstItem="iAr-lY-UzJ" firstAttribute="top" secondItem="fav-GI-Jeq" secondAttribute="bottom" constant="8" id="zWo-YX-nUw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.68115942028987" y="172.43303571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

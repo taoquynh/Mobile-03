@@ -25,9 +25,9 @@ class FirstViewController: UIViewController {
         view.addSubview(containerView)
         
         squareWidth = (containerView.bounds.width) / 6
-        //drawWall()
-//        drawI()
-        drawO()
+        drawWall()
+        drawI()
+//        drawO()
     }
     
     func drawBrick(row: Int, col: Int, radius: CGFloat, color: UIColor) {
@@ -39,7 +39,7 @@ class FirstViewController: UIViewController {
     func drawWall(){
         for i in 0...2{
             for j in 0...2 {
-                drawBrick(row: i, col: j, radius: squareWidth, color: UIColor.purple)
+                drawBrick(row: i, col: j, radius: squareWidth, color: UIColor(red:0.94, green:0.96, blue:0.96, alpha:1.0))
             }
         }
     }
@@ -48,7 +48,7 @@ class FirstViewController: UIViewController {
         for i in 0...2{
             for j in 0...2{
                 if j == 1{
-                    drawBrick(row: i, col: j, radius: squareWidth, color: UIColor.systemPink)
+                    drawBrick(row: i, col: j, radius: squareWidth, color: UIColor.red)
             
                 }
             }

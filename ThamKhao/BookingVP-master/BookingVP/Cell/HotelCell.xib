@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="414" id="KGk-i7-Jjw" customClass="HotelCell" customModule="BookingVP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="414"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="414"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RHS-Id-XYm">
+                        <rect key="frame" x="16" y="0.0" width="405" height="231.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_hotel_default" translatesAutoresizingMaskIntoConstraints="NO" id="ed2-Ud-D4A">
+                                <rect key="frame" x="0.0" y="0.0" width="405" height="231.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="gtk-Ed-NTG">
+                                <rect key="frame" x="0.0" y="0.0" width="405" height="231.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vinpearl Hotel Rivera Hải Phòng" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a67-z9-M1h">
+                                <rect key="frame" x="16" y="149" width="373" height="21.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.400.000 đ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mO-Kz-huQ">
+                                <rect key="frame" x="16" y="204" width="94" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đường Manhattan 9, khu đô thị Vinhomes Imperia, đường Hà Nội, Hồng Bàng, Thành phố Hải Phòng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3D2-QB-qE9">
+                                <rect key="frame" x="16" y="176.5" width="373" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 Km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7z-Ph-3nr">
+                                <rect key="frame" x="346" y="204.5" width="43" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3D2-QB-qE9" firstAttribute="leading" secondItem="0mO-Kz-huQ" secondAttribute="leading" id="1HN-aX-U8X"/>
+                            <constraint firstItem="0mO-Kz-huQ" firstAttribute="leading" secondItem="RHS-Id-XYm" secondAttribute="leading" constant="16" id="1sC-Iu-fP4"/>
+                            <constraint firstItem="M7z-Ph-3nr" firstAttribute="centerY" secondItem="0mO-Kz-huQ" secondAttribute="centerY" id="8WD-ze-bsp"/>
+                            <constraint firstItem="gtk-Ed-NTG" firstAttribute="trailing" secondItem="ed2-Ud-D4A" secondAttribute="trailing" id="Gvr-Gn-FgQ"/>
+                            <constraint firstItem="a67-z9-M1h" firstAttribute="trailing" secondItem="3D2-QB-qE9" secondAttribute="trailing" id="Nf8-2H-JoQ"/>
+                            <constraint firstAttribute="width" secondItem="RHS-Id-XYm" secondAttribute="height" multiplier="7:4" id="PFg-q9-VKX"/>
+                            <constraint firstAttribute="trailing" secondItem="3D2-QB-qE9" secondAttribute="trailing" constant="16" id="Rhi-Nf-pgH"/>
+                            <constraint firstItem="gtk-Ed-NTG" firstAttribute="bottom" secondItem="ed2-Ud-D4A" secondAttribute="bottom" id="UoV-mt-c6C"/>
+                            <constraint firstItem="gtk-Ed-NTG" firstAttribute="leading" secondItem="ed2-Ud-D4A" secondAttribute="leading" id="fWo-0Q-vWe"/>
+                            <constraint firstItem="ed2-Ud-D4A" firstAttribute="top" secondItem="RHS-Id-XYm" secondAttribute="top" id="gp1-zl-JrC"/>
+                            <constraint firstItem="a67-z9-M1h" firstAttribute="leading" secondItem="0mO-Kz-huQ" secondAttribute="leading" id="h9P-2d-qIW"/>
+                            <constraint firstItem="0mO-Kz-huQ" firstAttribute="top" secondItem="3D2-QB-qE9" secondAttribute="bottom" constant="8" id="hmZ-WG-Opi"/>
+                            <constraint firstAttribute="trailing" secondItem="M7z-Ph-3nr" secondAttribute="trailing" constant="16" id="ij1-jr-foY"/>
+                            <constraint firstAttribute="trailing" secondItem="ed2-Ud-D4A" secondAttribute="trailing" id="itZ-Vg-3O4"/>
+                            <constraint firstItem="ed2-Ud-D4A" firstAttribute="leading" secondItem="RHS-Id-XYm" secondAttribute="leading" id="oGn-cs-Tng"/>
+                            <constraint firstItem="3D2-QB-qE9" firstAttribute="top" secondItem="a67-z9-M1h" secondAttribute="bottom" constant="6" id="pig-lr-JVb"/>
+                            <constraint firstItem="gtk-Ed-NTG" firstAttribute="top" secondItem="ed2-Ud-D4A" secondAttribute="top" id="qTL-fl-k5L"/>
+                            <constraint firstAttribute="bottom" secondItem="0mO-Kz-huQ" secondAttribute="bottom" constant="8" id="r6t-fy-uC3"/>
+                            <constraint firstAttribute="bottom" secondItem="ed2-Ud-D4A" secondAttribute="bottom" id="ude-Nu-eyz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="RHS-Id-XYm" secondAttribute="bottom" constant="16" id="CK9-z6-5Vo"/>
+                    <constraint firstItem="RHS-Id-XYm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FQy-hl-Thl"/>
+                    <constraint firstAttribute="trailing" secondItem="RHS-Id-XYm" secondAttribute="trailing" constant="16" id="UCY-23-ttL"/>
+                    <constraint firstItem="RHS-Id-XYm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="lVn-jE-a9L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivHotel" destination="ed2-Ud-D4A" id="9IT-3g-QlG"/>
+                <outlet property="lbAddress" destination="3D2-QB-qE9" id="RvM-66-D6g"/>
+                <outlet property="lbDistance" destination="M7z-Ph-3nr" id="tRZ-wc-yrx"/>
+                <outlet property="lbHotelName" destination="a67-z9-M1h" id="k4c-ua-O1o"/>
+                <outlet property="lbPrice" destination="0mO-Kz-huQ" id="iGx-pp-EtV"/>
+                <outlet property="viewHotel" destination="RHS-Id-XYm" id="G96-wg-edQ"/>
+            </connections>
+            <point key="canvasLocation" x="52.898550724637687" y="70.3125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_hotel_default" width="1075" height="983"/>
+        <image name="ic_shadow" width="1280" height="426"/>
+    </resources>
+</document>
