@@ -14,12 +14,12 @@
 - Link github: https://github.com/NghiemTrung/DoAnIOS-AppDocTruyen
 
 4. Học viên Ma Văn Huy
-- Tên đồ án:
-- Link github:
+- Tên đồ án: Book vé phòng, vé máy bay
+- Link github: https://github.com/huy95/project-bookRoom
 
 5. Học viên Vũ Tiến Dương
 - Tên đồ án:
-- Link github:
+- Link github: 
 
 6. Học viên Lương Quang Huy
 - Tên đồ án:
