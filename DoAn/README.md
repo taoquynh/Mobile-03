@@ -18,9 +18,9 @@
 - Link github: https://github.com/huy95/project-bookRoom
 
 5. Học viên Vũ Tiến Dương
-- Tên đồ án:
-- Link github: 
+- Tên đồ án: Sách dạy nấu ăn
+- Link github: https://github.com/VuDuong1137/-App-Cooking
 
 6. Học viên Lương Quang Huy
-- Tên đồ án:
-- Link github:
+- Tên đồ án: To do list
+- Link github: https://github.com/LuongQuangHuy/TodoList
