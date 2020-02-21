@@ -2,16 +2,16 @@
 # Đồ án tĩnh lớp mobile 03:
 
 1. Học viên Hoàng Thanh Tùng
-- Tên đồ án:
-- Link github:
+- Tên đồ án: Time Tracker
+- Link github: https://github.com/anhtung87/TimeTracker
 
 2. Học viên Vũ Thiện Tùng
-- Tên đồ án:
-- Link github:
+- Tên đồ án: Show Room Car
+- Link github: https://github.com/boykutepro/AppDoAn_ShowroomCar
 
 3. Học viên Nghiêm Đức Trung
-- Tên đồ án:
-- Link github:
+- Tên đồ án: Ứng dụng đọc truyện
+- Link github: https://github.com/NghiemTrung/DoAnIOS-AppDocTruyen
 
 4. Học viên Ma Văn Huy
 - Tên đồ án:
