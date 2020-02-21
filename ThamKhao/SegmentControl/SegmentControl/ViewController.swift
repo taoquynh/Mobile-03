@@ -20,7 +20,18 @@ class ViewController: UIViewController {
         print("Đã huỷ HomeViewController")
     }
     
-    let segmentControl: SegmentControl = {
+    let segmentControl: UISegmentedControl = {
+        let segment = UISegmentedControl(items: ["Chưa xử lý", "Đang xử lý", "Đã xử lý"])
+        segment.translatesAutoresizingMaskIntoConstraints = false
+        // Make second segment selected
+        segment.selectedSegmentIndex = 0
+        //thay đổi màu segment được chọn
+        segment.selectedSegmentTintColor = UIColor.brown
+        segment.backgroundColor = UIColor.blue
+        return segment
+    }()
+    
+    let segmentControl2: SegmentControl = {
         let segment = SegmentControl(items: ["Chưa xử lý", "Đang xử lý", "Đã xử lý"])
         segment.translatesAutoresizingMaskIntoConstraints = false
         // Make second segment selected
@@ -85,6 +96,7 @@ class ViewController: UIViewController {
         containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
         
         containerView.addSubview(segmentControl)
+        containerView.addSubview(segmentControl2)
         containerView.addSubview(tableView)
         
         segmentControl.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 100).isActive = true
@@ -92,7 +104,12 @@ class ViewController: UIViewController {
         segmentControl.rightAnchor.constraint(equalTo: containerView.rightAnchor, constant: -16).isActive = true
         segmentControl.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
-        tableView.topAnchor.constraint(equalTo: segmentControl.bottomAnchor, constant: 32).isActive = true
+        segmentControl2.topAnchor.constraint(equalTo: segmentControl.bottomAnchor, constant: 16).isActive = true
+        segmentControl2.leftAnchor.constraint(equalTo: containerView.leftAnchor, constant: 16).isActive = true
+        segmentControl2.rightAnchor.constraint(equalTo: containerView.rightAnchor, constant: -16).isActive = true
+        segmentControl2.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        tableView.topAnchor.constraint(equalTo: segmentControl2.bottomAnchor, constant: 32).isActive = true
         tableView.leftAnchor.constraint(equalTo: containerView.leftAnchor, constant: 0).isActive = true
         tableView.rightAnchor.constraint(equalTo: containerView.rightAnchor, constant: 0).isActive = true
         tableView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -20).isActive = true
