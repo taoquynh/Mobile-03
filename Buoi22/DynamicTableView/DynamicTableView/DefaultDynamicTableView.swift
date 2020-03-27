@@ -24,6 +24,9 @@ class DefaultDynamicTableView: UIViewController {
         // gán delegate, datasource cho tableView
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.tableFooterView = UIView()
+        tableView.bounces = false
+        tableView.separatorStyle = .none
     }
     
     func setupData(){
